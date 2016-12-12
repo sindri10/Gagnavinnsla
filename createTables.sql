@@ -1,5 +1,6 @@
 create table states (
 	state varchar(250),
+	population int,
 	primary key (state)
 );
 
