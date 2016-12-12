@@ -22,10 +22,11 @@ create table education (
 );
 
 create table healthcare (
+	id serial,
 	year int,
 	state varchar(250) references states(state),
 	yes real,
-	primary key (year,state)
+	primary key (id)
 );
 
 create table victims (
