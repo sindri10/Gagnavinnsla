@@ -47,6 +47,6 @@ create table circumstances (
 	threatlevel varchar(250),
 	flee varchar(250),
 	bodycamera varchar(250),
-	death_date date
+	death_date date,
 	primary key (id)
 );
