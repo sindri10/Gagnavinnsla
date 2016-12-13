@@ -57,5 +57,6 @@ create table portion (
 	W int,
 	B int,
 	H int,
+	A int,
 	primary key (state)
 );
