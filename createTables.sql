@@ -52,3 +52,10 @@ create table circumstances (
 	death_date date,
 	primary key (id)
 );
+create table portion (
+	state varchar(250) references states(state),
+	W int,
+	B int,
+	H int,
+	primary key (state)
+);
