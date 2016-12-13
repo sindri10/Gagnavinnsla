@@ -54,9 +54,9 @@ create table circumstances (
 );
 create table portion (
 	state varchar(250) references states(state),
-	W int,
-	B int,
-	H int,
-	A int,
+	W real,
+	B real,
+	H real,
+	A real,
 	primary key (state)
 );
